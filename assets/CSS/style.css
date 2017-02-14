@@ -39,6 +39,8 @@ li a:hover {
 
 #hos {
     width: 200px;
+    float: left;
+    padding-right: 10px;
 }
 
 h1 {
@@ -54,4 +56,20 @@ p, h2, h3, h4, a {
 h3, h4 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+}
+
+#news {
+    background-color: #DBC9DF;
+}
+
+#event {
+    background-color: #782A7E;
+}
+
+footer {
+    background-color: #363636;
+}
+
+aside p, h3, h4 {
+    color: white;
 }
