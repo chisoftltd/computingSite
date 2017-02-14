@@ -1,4 +1,4 @@
-@import "templatecolours.css";
+/*@import "templatecolours.css";*/
 
 body {
     max-width: 960px;
@@ -39,6 +39,8 @@ li a:hover {
 
 #hos {
     width: 200px;
+    float: left;
+    padding-right: 10px;
 }
 
 h1 {
@@ -54,4 +56,79 @@ p, h2, h3, h4, a {
 h3, h4 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+}
+
+#news {
+    background-color: #DBC9DF;
+}
+
+#event {
+    background-color: #782A7E;
+}
+
+footer {
+    background-color: #363636;
+}
+
+aside p, h3, h4 {
+    color: white;
+    margin: 0;
+}
+
+aside h3 {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+aside h4 {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+aside p {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+aside {
+    padding-right: 0px;
+    margin-top: -5px;
+}
+
+main {
+    padding-right: 0px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 13px;
+}
+
+a {
+    font-size: 13px;
+}
+
+footer > p {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
 }
