@@ -28,3 +28,15 @@ nav > ul > li > a {
 li a:hover {
     color: #363636;
 }
+
+#csmdlogo {
+    width: 300px;
+}
+
+#banner {
+    max-width: 960px;
+}
+
+#hos {
+    width: 200px;
+}
